@@ -4,9 +4,9 @@
 main.py
 
 #convert episodes to mp4s and remove raw records
-python3 playback_movie.py logs/records/*.bk2 >logs/tmp/ffmpeg.out 2>&1
+#python3 playback_movie.py logs/records/*.bk2 >logs/tmp/ffmpeg.out 2>&1
 #rm -f ./logs/*.bk2
-echo '[+] processed episode replays'
+#echo '[+] processed episode replays'
 
 #run tensorboard after log file created
 #sleep 5
